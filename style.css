@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 249, 249);
+}
+.create-account{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 3px 0 rgb(228, 225, 225);
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    background-color: #000000;
+}  
+
+.create-account h2{
+    color: white;
+    text-align: start;
+    margin-left: 10%;
+}
+
+input[type=Name]
+{
+  width: 35% ;
+  margin-right: 5%;
+}
+  input[type=lastname]
+{
+  width: 35% ;
+  margin-left: 5%;
+}
+input{
+    width: 80% ;
+  border:2px solid#aaa;
+  border-radius: 4px;
+  margin: 9px 0 ;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+button{
+    background-color:rgb(93, 173, 13) ;
+    color: #fff;
+    width: 30%;
+    padding: 8px;
+    font-size: 15px;
+    margin-top: 10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    float: right ;
+    margin-right: 10%;
+ }
+a{
+    text-decoration: none;
+    color: white;
+}
